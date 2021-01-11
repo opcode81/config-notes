@@ -18,4 +18,5 @@
 # Restore Theme
 
 1. Go to [vivaldi://settings/themes/](vivaldi://settings/themes/)
-2. Add a new theme, click ***Import*** and paste contents from `./settings/theme-dj.json`
+2. Add a new theme, click ***Edit Theme***, then click ***Import*** and paste contents from `./settings/theme-dj.json`
+
