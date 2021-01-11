@@ -1,0 +1,2 @@
+Windows cursor speed: 11
+Logitech DPI configuration: 1200 (regular), 200 (precision)
