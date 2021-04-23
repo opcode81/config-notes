@@ -32,6 +32,7 @@
   position: relative;
   height: 30px !important;
   width: auto !important;
+  transform: inherit !important;
 }
 #browser.tabs-bottom .tab-strip > span > .tab-position > .tab:not(.pinned),
 #browser.tabs-top .tab-strip > span > .tab-position > .tab:not(.pinned) {
@@ -48,12 +49,12 @@
 #browser.tabs-bottom .tab-strip .toolbar-tabbar,
 #browser.tabs-top .tab-strip .toolbar-tabbar {
   margin-left: auto;
+  position: relative;
 }
 #browser.tabs-bottom .tab-strip .toolbar-tabbar .newtab,
 #browser.tabs-top .tab-strip .toolbar-tabbar .newtab {
   left: 0 !important;
   top: 0 !important;
-  position: relative !important;
   padding: 0;
   vertical-align: top;
 }
