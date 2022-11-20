@@ -1,0 +1,9 @@
+To configure the Git-Bash shell
+
+* Add a shell using cmd.exe
+* Add the following initialisation script (under advanced)
+  
+  set HOME=
+  cd C:\Users\djain
+  "C:\Program Files\git\bin\bash.exe" -l
+  
