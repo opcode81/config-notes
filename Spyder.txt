@@ -1,0 +1,9 @@
+IPython console / Startup / Run Code:
+Lines: %load_ext autoreload, %autoreload 2
+
+
+Key bindings:
+
+open file: Ctrl+Shift+O (to unbind Ctrl+O)
+symbol finder: Ctrl+O (search outline)
+go to next file: Ctrl+E (recent editors)
