@@ -1,0 +1,3 @@
+.address-top #tabs-tabbar-container.bottom, .address-top-off #tabs-tabbar-container.bottom, .address-bottom-off #tabs-tabbar-container.bottom {
+    border-top-width: 0;
+}
