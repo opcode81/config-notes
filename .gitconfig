@@ -1,0 +1,31 @@
+[alias]
+	st = status
+	lg = log --name-only
+	ci = commit
+	dt = difftool
+	dtc = difftool --cached
+	diffc = diff --cached
+	ic = commit
+	psuh = push
+	amend = commit --amend --no-edit
+	recent = for-each-ref --sort=-committerdate
+[user]
+	name = Dominik Jain
+	email = d.jain@appliedai.de
+[core]
+  editor = 'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+	symlinks = true
+[diff]
+    tool = winmerge
+[difftool "winmerge"]
+    cmd = "'C:/Program Files/WinMerge/WinMergeU.exe'" -e "$LOCAL" "$REMOTE"
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = "C:/Progra~1/KDiff3/kdiff3.exe"
+	trustExitCode = false
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
