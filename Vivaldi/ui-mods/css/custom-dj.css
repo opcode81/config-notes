@@ -1,0 +1,3 @@
+.theme-dark .tab.active .tab-header .favicon:not(.svg) {
+    filter: unset;
+}

@@ -4,6 +4,7 @@
 #browser.tabs-bottom #tabs-tabbar-container,
 #browser.tabs-top #tabs-tabbar-container {
   height: auto !important;
+  padding: 0 !important;
 }
 #browser.tabs-bottom #tabs-container,
 #browser.tabs-top #tabs-container {
@@ -26,24 +27,24 @@
 #browser.tabs-top .tab-strip > span {
   display: inline-block;
 }
-#browser.tabs-bottom .tab-strip > span > .tab-position,
-#browser.tabs-top .tab-strip > span > .tab-position {
+#browser .tab-position,
+#browser .tab-position {
   left: 0px !important;
   position: relative;
   height: 30px !important;
   width: auto !important;
   transform: inherit !important;
 }
-#browser.tabs-bottom .tab-strip > span > .tab-position > .tab,
-#browser.tabs-top .tab-strip > span > .tab-position > .tab {
+#browser .tab-wrapper {
+  margin: 0 !important;
+}
+#browser  .tab {
   max-width: unset !important;
 }
-#browser.tabs-bottom .tab-strip > span > .tab-position > .tab.active,
-#browser.tabs-top .tab-strip > span > .tab-position > .tab.active {
+#browser  .tab.active {
   height: unset !important;
 }
-#browser.tabs-bottom .tab-strip > span > .tab-position > .tab:not(.pinned),
-#browser.tabs-top .tab-strip > span > .tab-position > .tab:not(.pinned) {
+#browser .tab:not(.pinned) {
   width: 240px !important; /* 240px for 8 tabs per row */
 }
 #browser #tabs-container .newtab {

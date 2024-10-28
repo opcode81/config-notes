@@ -15,6 +15,11 @@ In the following, `.` refers to the directory this README is in.
    1. Run apply-ui-mods as admin: `elevate -k python apply-ui-mods.py`
 3. Reopen Vivaldi and enjoy the modifications
 
+# Debugging the Vivaldi UI
+
+The Vivaldi UI changes sometimes, requiring changes to the CSS.
+To debug the Vivaldi UI, follow the instructions [here](https://forum.vivaldi.net/topic/16684/inspecting-the-vivaldi-ui-with-devtools)
+
 # Restore Search Engines
 
 1. Go to [vivaldi://settings/search/](vivaldi://settings/search/)
