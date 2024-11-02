@@ -1,5 +1,3 @@
-/* modified copy of https://raw.githubusercontent.com/justdanpo/VivaldiHooks/master/vivaldi/hooks/multiline-tabs.css */
-
 /* Multiline tabs */
 #browser.tabs-bottom #tabs-tabbar-container,
 #browser.tabs-top #tabs-tabbar-container {
@@ -41,14 +39,15 @@
 #browser  .tab {
   max-width: unset !important;
 }
-#browser  .tab.active {
+#browser .tab.active {
   height: unset !important;
 }
 #browser .tab:not(.pinned) {
-  width: 240px !important; /* 240px for 8 tabs per row */
-}
-#browser #tabs-container .newtab {
-	display: none;
+  width: 192px !important;
+  
+  @media(min-width: 1920px) {
+	width: 240px !important;
+  }
 }
 #browser.tabs-bottom .tab-strip > span > .tab-position > .tab.pinned,
 #browser.tabs-top .tab-strip > span > .tab-position > .tab.pinned {
@@ -65,12 +64,12 @@
 #browser.tabs-bottom .tab-strip .toolbar-tabbar,
 #browser.tabs-top .tab-strip .toolbar-tabbar {
   margin-left: auto;
-  position: relative;
 }
 #browser.tabs-bottom .tab-strip .toolbar-tabbar .newtab,
 #browser.tabs-top .tab-strip .toolbar-tabbar .newtab {
   left: 0 !important;
   top: 0 !important;
+  position: relative !important;
   padding: 0;
   vertical-align: top;
 }
