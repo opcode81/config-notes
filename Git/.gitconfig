@@ -1,0 +1,48 @@
+[user]
+	name = Dominik Jain
+	email = dominik.jain@outlook.com
+[core]
+	autocrlf = false
+	eol = native
+	safecrlf = false
+	editor = 'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+	symlinks = true
+[push]
+	default = tracking
+[alias]
+	st = status
+	ci = commit
+	loog = log --follow --name-only”
+	lg = log --name-only
+	dt = difftool
+	ic = commit
+	dtc = difftool --cached
+	diffc = diff --cached
+	amend = commit --amend --no-edit
+	psuh = push
+	cehckout = checkout
+[color]
+	ui = true
+[diff]
+    tool = winmerge
+[difftool "winmerge"]
+    cmd = "'C:/Program Files/WinMerge/WinMergeU.exe'" -e "$LOCAL" "$REMOTE"
+[mergetool "winmerge"]
+	path = C:\\Program Files\\WinMerge\\winmergeu.exe
+[mergetool "tortoisesvn"]
+	path = C:\\Users\\Dominik Jain\\Bin\\TortoiseMerge\\TortoiseMerge.exe
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+	trustExitCode = false
+[difftool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+	trustExitCode = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[receive]
+	denyCurrentBranch = warn
