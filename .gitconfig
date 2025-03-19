@@ -11,7 +11,7 @@
 	recent = for-each-ref --sort=-committerdate
 [user]
 	name = Dominik Jain
-	email = d.jain@appliedai.de
+	email = djain@outlook.de
 [core]
   editor = 'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
 	symlinks = true
