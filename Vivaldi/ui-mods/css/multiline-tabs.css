@@ -2,7 +2,8 @@
 #browser.tabs-bottom #tabs-tabbar-container,
 #browser.tabs-top #tabs-tabbar-container {
   height: auto !important;
-  padding: 0 !important;
+  /*padding: 0 !important;*/
+  padding-bottom: 3px !important;
 }
 #browser.tabs-bottom #tabs-container,
 #browser.tabs-top #tabs-container {
@@ -34,7 +35,8 @@
   transform: inherit !important;
 }
 #browser .tab-wrapper {
-  margin: 0 !important;
+  margin-left:3px;
+  padding-bottom: 3px;
 }
 #browser  .tab {
   max-width: unset !important;
@@ -43,11 +45,7 @@
   height: unset !important;
 }
 #browser .tab:not(.pinned) {
-  width: 192px !important;
-  
-  @media(min-width: 1920px) {
-	width: 240px !important;
-  }
+  width: 146px !important;
 }
 #browser.tabs-bottom .tab-strip > span > .tab-position > .tab.pinned,
 #browser.tabs-top .tab-strip > span > .tab-position > .tab.pinned {
