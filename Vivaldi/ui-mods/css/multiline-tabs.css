@@ -1,4 +1,8 @@
 /* Multiline tabs */
+#browser #tabs-container .resize {
+    width: 100% !important;
+    max-width: 100% !important;
+}
 #browser.tabs-bottom #tabs-tabbar-container,
 #browser.tabs-top #tabs-tabbar-container {
   height: auto !important;
