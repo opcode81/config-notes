@@ -5,3 +5,6 @@
 #browser .newtab {
     display: none;
 }
+
+/*Hide Info Overlay Bubble*/
+.overlayinfobubble {display: none;}
