@@ -39,8 +39,11 @@
   transform: inherit !important;
 }
 #browser .tab-wrapper {
+  margin: 0px !important;
+ /*
   margin-left:3px;
   padding-bottom: 3px;
+ */
 }
 #browser  .tab {
   max-width: unset !important;
