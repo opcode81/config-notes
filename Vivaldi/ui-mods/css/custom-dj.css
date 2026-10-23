@@ -5,3 +5,11 @@
 #browser .newtab {
     display: none;
 }
+
+.tabs-bottom #tabs-container  .resize {
+    margin-right: 0 !important;
+}
+
+#tabs-container .toolbar-tabbar-before, #tabs-container .toolbar-tabbar-after {
+    display: none;
+}
