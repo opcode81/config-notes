@@ -6,6 +6,10 @@
     display: none;
 }
 
+
+/*Hide Info Overlay Bubble*/
+.overlayinfobubble {display: none;}
+
 .tabs-bottom #tabs-container  .resize {
     margin-right: 0 !important;
 }
